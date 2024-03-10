@@ -1,0 +1,116 @@
+@import "pf.css";
+.sub{
+  height: 7vh;
+  width: 17vw;
+  background-color: blue;
+  line-height: 7vh;
+  padding-left: 2%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  font-size: 15px;
+  margin-top: 2%;
+}
+.judul h1 {
+  text-align: center;
+  width: 75%;
+  height: 10vh;
+  margin: 15px;
+  padding: 5px;
+  line-height: 10vh;
+  background-color: white;
+  border-radius: 12px;
+}
+.artikel{
+  width: 75%;
+  margin: 15px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 12px;
+}
+.ol{
+  font-size: 18px;
+  text-align: justify;
+  margin: 25px;
+  padding-bottom: 10px;
+  padding: 0 10%;
+
+}
+.artikel>p{
+  font-size: 18px;
+  text-align: justify;
+  margin: 25px;
+  padding: 0 5%;
+}
+/*portofolio*/
+
+.navbar{
+  width: 100vw;
+}
+.container{
+  padding: 20px;
+  margin-right: 1%;
+  margin-left: 1%;
+  background-color: white;
+  height: 70vh;
+}
+.container1{
+  margin-top: 10%;
+  padding: 80px;
+  margin-right: 7%;
+  margin-left: 7%;
+  background-color: white;
+  border-radius: 15px;
+}
+.profil{
+  max-height: 320px;
+  max-width: 320px;
+  height: 320px;
+  width: 320px;
+  background-color: black;
+  margin-left: 35%;
+  margin-right: 50%;
+  margin-top: 5%;
+  border: 3px;
+  border-radius: 100%;
+}
+.container>h1{
+  margin-left: 10px;
+  text-align: center;
+  font-size: 50px;
+}
+.container1>p{
+  font-size: 18px;
+  text-align: justify;
+}
+.container2{
+  margin-top: 5%;
+  margin-right: 7%;
+  margin-left: 7%;
+  background-color: white;
+  border-radius: 15px;
+  height: 100px;
+}
+.artikel_img{
+  max-width: 80vw;
+  max-height: 30vh;
+  margin-left: 1%;
+  margin-right: 0;
+  margin-top: 1%;
+  float: right;
+}
+.artikel>h1{
+  text-align: center;
+  font-size: 30px;
+}
+.artikel>h2{
+  text-align: center;
+}
+.kelebihan{
+  max-width: 50vw;
+  max-height: 30vh;
+  float: right;
+  margin-top: 5%;
+  border-radius: 100%;
+  box-shadow: black 10px 10px 5px;
+}
+

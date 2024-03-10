@@ -1,0 +1,125 @@
+@import "nav.css";
+.left-container{
+	position: fixed;
+	width: 420px;
+	height: 100vh;
+	background-color: #ff6347;
+}
+
+.photo-profil{
+	position: absolute;
+	top: 100px;
+	text-align: center;
+}
+
+
+.photo{
+	width: 50%;
+	border-radius: 50%;
+}
+
+.contact{
+	color: #fffff2;
+}
+
+.contact-button{
+	width: 50%;
+	background-color: #ff5447;
+	border-radius: 12px;
+	margin-bottom: 14px;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.right-container{
+	position: absolute;
+	left: 420px;
+	background-color: #dfef92;
+}
+.contact-button:hover{
+	background-color: #ff5aa7;
+	color: #9f3212;
+	transition: 1s;
+
+}
+
+.title{
+	text-align: center;
+	font-size: 35px;
+	background-color: #d5ff3e;
+	border-radius: 123px;
+}
+
+.about{
+	padding-top: 50px;
+	padding-left: 76px;
+	font-size: 30px;
+}
+
+.isi-profil{
+	padding-left: 79px;
+	padding-top: 12px;
+	font-family: verdana, sans-serif;
+}
+
+.data{
+	padding-left: 80px;
+}
+
+.pendidikan{
+	padding-top: 50px;
+	padding-left: 76px;
+	font-size: 30px;
+}
+
+.pdk{
+	padding-left: 79px;
+	padding-top: 12px;
+	font-family: verdana, sans-serif;
+}
+
+.isi-pendidikan{
+	padding-left: 167px;
+	font-family: verdana, sans-serif;
+}
+
+.cerita{
+	padding-top: 50px;
+	padding-left: 76px;
+	font-size: 30px;
+}
+
+.konten{
+	padding-left: 79px;
+	padding-top: 12px;
+	font-family: verdana, sans-serif;
+}
+
+.judul{
+	text-align: center;
+	padding-top: 34px;
+}
+.pphoto{
+	padding-top: 23px;
+	height: 294px;
+	padding-left: 456px;
+}
+
+.isi-artikel{
+	padding-left: 45px;
+	font-family: verdana, sans-serif;
+}
+
+.right-artikel{
+	position: absolute;
+	padding-left: 500px;
+	font-family: verdana, sans-serif;
+}
+
+.pdiv{
+	padding-bottom: 13px;
+}
+.body_lisa{
+	margin: 0;
+}

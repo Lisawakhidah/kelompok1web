@@ -1,0 +1,232 @@
+.body_dimas{
+	margin: 0;
+	font-family: Poppins;
+	background-image: url("../../asset/img/bg_portofolio.png");
+	backdrop-filter: blur(30px);
+}
+header{
+	margin-top: 0;
+	height: 17vh;
+	background-color:rgba(0,0,0,0.1);
+}
+.header_dimas h1{
+	color: white;
+	line-height: 16vh;
+	text-align: center;
+}
+.aside{
+	width: 25vw;
+	height: auto;
+	background-color: rgba(104,112,114,0.5);
+	margin-bottom: 0;
+	
+}
+.kotak1{
+	width: 72vw;
+	height: auto;
+	padding-left: 15px;
+	margin-left: 15px;
+	float: right;
+	display: block;
+}
+.profil{
+	margin-left: 20%;
+	margin-top: 10%;
+  	max-height: 180px;
+ 	max-width: 180px;
+  	height: 180px;
+  	width: 180px;
+ 	background-color: black;
+ 	border: 3px;
+  	border-radius: 100%;
+}
+.bundar{
+	padding-left: 14.5%;
+	padding-top: 10%;
+}
+.data{
+	margin-top: 1%;
+	color: white;
+	padding-top: 10px;
+	font-size: 15px;
+}
+.data p{
+	font-size: 20px;
+	margin-left: 0;
+	text-align: center;
+}
+.data li{
+	font-size: 20px;
+	margin-left: 5%;
+	list-style: none;
+	margin-top: 10px;
+}
+.data ul{
+	margin-bottom: 0;
+}
+.kotak2{
+	height: 7vh;
+	width: 24vw;
+	color: white;
+	background-color: rgb(44,45,46);
+	text-align: center;
+	margin-left: 2%;
+	line-height: 7vh;
+	margin-bottom: 5%;
+}
+
+.sosmed_img{
+	max-height: 30px;
+	max-width: 30px;
+	height: 30px;
+	width: 30px;
+	margin-left: 5%;
+	margin-right: 3%;
+	border-radius: 100%;
+}
+.sosmed a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+.sosmed{
+	list-style: none;
+	height: 30px;
+	line-height: 30px;
+}
+
+.padhobi{
+	padding-left: 5%;
+}
+.hobi{
+	width: 12vw;
+}
+.skil{
+	width: 12vw;
+	list-style: none;
+}
+/*kotak besar*/
+.kotak3{
+	height: 7vh;
+	width: 65vw;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 25px;
+	margin-left: 5%;
+	color: white;
+	line-height: 7vh;
+	text-align: center;
+	margin-top: 5%;
+	box-shadow: black 8px 10px;
+}
+.kotak4{
+	width: 58vw;
+	background-color: rgba(166,175,179,0.5);
+	border-radius: 25px;
+	margin-left: 5%;
+	color: black;
+	text-align: justify;
+	padding-left:5%;
+	padding-right: 5%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin-top: 2%;
+	font-size: 18px;
+	font-family: sans-serif;
+	box-shadow: black 10px 10px;
+	color: white;
+}
+.kotak4a{
+	width: 50.5vw;
+	background-color: rgba(166,175,179,0.5);
+	border-radius: 25px;
+	margin-left: 5%;
+	color: black;
+	text-align: justify;
+	padding-left:20%;
+	
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin-top: 2%;
+	font-size: 18px;
+	font-family: sans-serif;
+	box-shadow: black 10px 10px;
+	color: white;
+}
+
+footer{
+	height: 7vh;
+	color: white;
+	background-color: rgb(8,9,25);
+	line-height: 7vh;
+	text-align: center;
+}
+
+#navigasi{
+  overflow: hidden;
+  background-color: rgb(8,9,25);
+  font-size: 16px;
+}
+#navigasi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+#navigasi li {
+  float: left;
+}
+
+#navigasi li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(147,180,169);
+
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  rgb(148,115,72);
+  min-width: 160px;
+ 
+}
+
+.dropdown-content a {
+  color: white;
+  display: block;
+  text-align: left;
+  overflow: none;
+  text-decoration: none;
+
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(147,180,169);}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.img-nav{
+  width: 23px;
+  height: 23px;
+  max-width: 23px;
+  max-height: 23px;
+  border-radius: 100%;
+  
+}
+.sup-nav{
+  font-size: 16px;
+}

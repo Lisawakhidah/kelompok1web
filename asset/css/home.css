@@ -1,0 +1,179 @@
+.body_color{
+  background-color: rgb(219,188,168);
+}
+/*header*/
+.sembarang{
+  background-image: url("../../asset/img/bg_index.jpg");
+  background-image-filter:blur(4px);
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  color: greenyellow;
+  max-height: 45vh;
+  height: 45vh;
+  
+}
+.sembarang p{
+  font-size: 70px;
+  font-family: serif;
+  margin-top: 10%;
+}
+
+/*navigasi*/
+#navigasi{
+  overflow: hidden;
+  background-color: rgb(115,99,66);
+  font-size: 16px;
+}
+#navigasi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+#navigasi li {
+  float: left;
+}
+
+#navigasi li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(147,180,169);
+
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  rgb(148,115,72);
+  min-width: 160px;
+ 
+}
+
+.dropdown-content a {
+  color: white;
+  display: block;
+  text-align: left;
+  overflow: none;
+  text-decoration: none;
+
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(147,180,169);}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.img-nav{
+  width: 23px;
+  height: 23px;
+  max-width: 23px;
+  max-height: 23px;
+  border-radius: 100%;
+  
+}
+.sup-nav{
+  font-size: 16px;
+}
+
+/*artikel*/
+
+/*aside*/
+aside {
+  width: 22%;
+  height: 460px;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 25px;
+  margin-top: 5%;
+  float: right;
+  font-style: italic;
+  background-color: rgba(213,203,197,0.5);
+  display: block;
+  text-align: center;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+aside a {
+  display: block;
+  text-decoration: none;
+}
+/*footer*/
+footer{
+  height: 7vh;
+  color: white;
+  background-color: rgb(115,99,66);
+  line-height: 7vh;
+  text-align: center;
+  margin: 0;
+}
+/*pemanis*/
+
+.judul_home{
+  height: 10vh;
+  font-size: 28px;
+  text-align: center;
+  line-height: 5vw;
+  margin-left: 5%;
+  margin-right: 31%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  background-color: red;
+  color: white;
+  border-radius: 12px;
+  box-shadow:rgb(115,99,66) 10px 12px 5px;
+}
+.con_artikel{
+  height: 35vh;
+  width: 27vw;
+  background-color: rgb(248,241,235);
+  margin: 0;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: rgb(115,99,66) 10px 8px;
+  text-align: justify;
+  padding: 5px 10px;
+  padding-top: 10px;
+  font-size: 16px;
+
+}
+.selanjutnya{
+  text-decoration: none;
+  color: black;
+}
+.box h2{
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgb(219,188,168);
+  height: 7vh;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  line-height: 7vh;
+  box-shadow: rgb(115,99,66) 10px 8px;
+  font-size: 18px;
+}
+.box{
+  margin-right: 29.5%;
+  margin-left: 5%;
+  padding-left: 1%
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border-radius: 12px;
+  height: auto;
+  background-color: rgb(234,220,193);
+  box-shadow: rgb(115,99,66) 10px 10px 5px;
+}

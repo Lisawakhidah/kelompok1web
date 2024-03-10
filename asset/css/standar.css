@@ -1,0 +1,10 @@
+@import "home.css";
+@import "dimasj.css";
+@import "lisanw.css";
+@import "zahro.css";
+body{
+  margin: 0px;
+  font-family: verdana, sans-serif, poppin ;
+  background-color: white;
+  padding-top: 0;
+}
